@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <mongo.uri>mongodb://linux01:27017/recommender</mongo.uri>
+    <mongo.db>recommender</mongo.db>
+    <es.httpHosts>linux01:9200</es.httpHosts>
+    <es.transportHosts>linux01:9300</es.transportHosts>
+    <es.index>recommender</es.index>
+    <es.cluster.name>es-cluster</es.cluster.name>
+
+    <MONGODB_MOVIE_COLLECTION>Movie</MONGODB_MOVIE_COLLECTION>
+    <MONGODB_RATING_COLLECTION>Rating</MONGODB_RATING_COLLECTION>
+    <MONGODB_TAG_COLLECTION>Tag</MONGODB_TAG_COLLECTION>
+
+    <ES_MOVIE_COLLECTION>Movie</ES_MOVIE_COLLECTION>
+    <ES_RATING_COLLECTION>Rating</ES_RATING_COLLECTION>
+    <ES_TAG_COLLECTION>Tag</ES_TAG_COLLECTION>
+
+    <MOVIE_DATA_PATH>D:\IDEA项目\MovieRec\recommender\dataloader\src\main\resources\movies.csv</MOVIE_DATA_PATH>
+    <RATING_DATA_PATH>D:\IDEA项目\MovieRec\recommender\dataloader\src\main\resources\ratings.csv</RATING_DATA_PATH>
+    <TAG_DATA_PATH>D:\IDEA项目\MovieRec\recommender\dataloader\src\main\resources\tags.csv</TAG_DATA_PATH>
+
+</configuration>
